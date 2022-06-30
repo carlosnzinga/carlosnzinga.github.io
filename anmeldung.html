@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 CSS-Layout Grid</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  
+        
+  <header>
+    <aside>
+      <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+    </label>
+      <label class="logo">Anmeldung</label>
+    </aside>
+  </header>
+  
+  <main class="box">
+  
+      <h1>Formular</h1>
+      <p></p>
+        
+      <form action="home.html">
+          
+          <div>
+            
+            <label><strong>Anrede*</strong></label><br />
+    
+            <input type="radio" name="anrede" id="frau" value="Frau" required />
+            <label for="frau">Frau</label>
+    
+            <input type="radio" name="anrede" id="herr" value="Herr" />
+            <label for="herr">Herr</label>
+    
+            <input type="radio" name="anrede" id="anderes" value="Anderes" />
+            <label for="anderes">Anderes</label>
+          </div>
+    
+          <div>
+            <label for="vorname">Vorname *</label><br />
+    
+            <input
+              type="text"
+              id="vorname"
+              name="vorname"
+              minlength="1"
+              maxlength="100"
+              required
+            />
+          </div>
+    
+          <div>
+            <label for="nachname">Nachname *</label><br />
+    
+            <input
+              type="text"
+              id="nachname"
+              name="nachname"
+              minlength="1"
+              maxlength="100"
+              required
+            />
+          </div>
+    
+          <div>
+            <label for="strasse">Strasse *</label><br />
+            <input
+              type="text"
+              id="strasse"
+              name="strasse"
+              minlength="1"
+              maxlength="100"
+              required
+            />
+          </div>
+    
+          <div>
+            <label for="plz">PLZ *</label><br />
+    
+            <input
+              type="number"
+              id="plz"
+              name="plz"
+              min="1000"
+              max="9999"
+              required
+            />
+          </div>
+    
+          <div>
+            <label for="ort">Ort *</label><br />
+    
+            <input
+              type="text"
+              id="ort"
+              name="ort"
+              minlength="1"
+              maxlength="100"
+              required
+            />
+          </div>
+    
+          <div>
+            <label for="email">Email *</label><br />
+    
+            <input type="email" id="email" name="email" required />
+          </div>
+    
+          <div>
+            <label for="nachricht">Nachricht</label><br />
+    
+            <textarea
+              name="nachricht"
+              id="nachricht"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input type="submit" value="Senden" />
+    
+            <input type="reset" value="Löschen" />
+          </div>
+        </form>
+    </main>
+    <footer class="box">
+      <ul><li><a href="https://www.instagram.com/"> </a> Instagram:  eazy.jc</li></ul>
+        <ul><li><a href="https://accounts.snapchat.com/accounts/login?continue=%2Faccounts%2Fwelcome"> Snapchat:  eazy.jc</a></li></ul>
+    <p><strong>Tel:</strong> 078 839 77 75</p>
+  </footer>
+</body>
+</html>
+
+
+  
